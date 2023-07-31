@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -40,8 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
     posY = (MediaQuery.of(context).size.height / 2) - boxSize / 2 - 30;
 
     setState(() {
-      this.posX = posX;
-      this.posY = posY;
+      posX = posX;
+      posY = posY;
     });
   }
 
